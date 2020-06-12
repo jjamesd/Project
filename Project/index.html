@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pay</title>
+</head>
+
+<body>
+  <script src="./dist/main.js"></script>
+  <div id="loginPage" >
+    <h1>Wellcome</h1>
+    <button onclick="window.loginPage()">Login with scatter</button>
+  </div>
+  <div id="payPage" style="display: none;">
+    <h1>Account overview</h1>
+    <h4 id="message"></h4>
+    <h4>
+      Account name:
+      <b id="userField" style="display: inline;"></b><br>
+    </h4>
+    <h4>User has: <b id="balance" style="display: inline;"></b></div></h4>
+    <button id="payBtn" style="display: none;" onclick="window.payFunds()">Pay for service</button>
+    <button id="logoutBtn" style="display: none;" onclick="window.logoutBtn()">Logout</button>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "standalone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.4.5",
+    "@scatterjs/core": "^2.7.48",
+    "@scatterjs/eosjs2": "^1.5.30",
+    "axios": "^0.18.0",
+    "eosjs": "^20.0.0-beta3",
+    "scatterjs-core": "^2.7.18",
+    "scatterjs-plugin-eosjs2": "^1.5.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.2"
+  }
+}
